@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+  h1{
+   color: aqua;    
+  }
+select{
+    width: 160px;
+    height: 25px;
+}
+.Submit{
+    background-color:orange;
+    color: black;            
+    padding: 10px 20px;      
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;       
+  }
+ #Reset{
+    background-color: red;
+    color: black;            
+    padding: 10px 20px;      
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;     
+  }
+   .center-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+    height: 10vh;        
+  }
+  #massage-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+    height: 10vh;        
+  }
+
+</style>
+
+<head>
+<title>*Survey Form*</title>
+</head>
+
+<body>
+
+    <form action="https://media.tenor.com/pgfa4m-2cWkAAAAM/joking-kidding.gif" target="_blank">
+
+    <h1><i><u><b>SURVEY FORM......</i></u></b></h1>
+     <!-- <marquee behavior="scroll" direction="right" bgcolor="yellow" scrollamount="20" loop="infinite" >SURVEY FORM</marquee><br> -->
+
+    <label for="name">Name    :-  </label>
+    <input type="name" name="name" placeholder="write your name.....">
+
+    <br><br>
+
+    <label for="email">Email    :-    </label>
+    <input type="email" id=" email" placeholder="write your email....">
+
+    <br><br>
+
+    <label for="">Work Exprence   :-  </label>
+    <input type="" placeholder="enter number....">
+
+    <br><br>
+
+            <label for="Gender">Gender:- </label>
+            <select name="Gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="gay">Gay</option>
+            </select>
+
+    <br><br>
+
+            <label for="dob">Date of Birth:- </label>
+            <input type="date" name="date">
+
+    <br><br>
+
+     <label for="">Upload your resume :- </label> 
+    <input type="file" name="myFile">
+
+    <br><br>
+
+    <label for="">Adhar card :- </label> 
+    <input type="file" name="myFile">
+
+    <br><br>
+
+    <label for="">Paspost photo :- </label> 
+    <input type="file" name="myFile">
+
+    <br><br>
+
+    <label for="">signachar :- </label> 
+    <input type="file" name="myFile">
+
+    <br><br>
+
+    <label>Are you comfortable in investing in real estate<br>on platfrom without first investigating property      :- </label>
+   <select id="choice">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+
+    <br><br>
+
+    <label for="massage">Suggestions to<br>build trusted platform :-</label>
+    <div id="massage-box">
+    <textarea name="massage" id="massage" cols="30" rows="5" placeholder="write your massage........"></textarea>
+    </div>
+
+    <br><br>
+
+    <span>You are ready to invest in :- </span>
+    <div class="center-box">
+      <label><input type="checkbox" name="option1"> Real Estate</label>
+      <label><input type="checkbox" name="option2"> Mututal Funds</label>
+      <label><input type="checkbox" name="option3">Crpto Currency</label>
+      <label><input type="checkbox" name="option3">Stocks & Bonds</label>
+      </div>
+
+    <br><br>
+
+    <span>Are you ready for futher contact :- </span>
+            <input type="radio" name="rating" value="1">
+            <label for="rating1">Yes</label>
+            <input type="radio" name="rating" value="2">
+            <label for="rating1">No</label>
+
+    <br><br>
+
+    <input type="Reset" name="reset" id="Reset">
+    <br><br>
+    <input type="Submit" class="Submit">
+    <!-- <br><br> -->
+     <!-- <button onclick="window.print()">print</button> -->
+    <br><br>
+
+    </form>
+     <marquee behavior="scroll" direction="right" bgcolor="white" scrollamount="20" loop="infinite" >Create by manish pusdekar...</marquee><br>
+<!-- <br><br>
+<button popovertarget="content">who create..</button>
+      <ul id="content" popover>
+        <li>Manish pusdekar</li>
+        <li>age:- 20</li>
+        <li>BCA(3 year student)</li>
+      </ul> -->
+</body>
+
+</html>
